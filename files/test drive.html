@@ -1,0 +1,57 @@
+<Test Drive Reservation html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Drive Reservation</title>
+    <link rel="stylesheet" href="../files/css/test drive.css">
+    <link rel="icon" type="img/x-icon" href="../images/iconnew.png">
+</head>
+<body>
+    <header>
+        <div class="grid-container">
+          <nav class="slide-down">
+            <span id="logoo">
+              <a href="../files/Home.html">
+                <img src="../images/finalogo.png" alt="logo" width="180px" height="50px">
+              </a>
+            </span>
+        </header>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="img__container">
+                <img src="../images/3333.webp" alt="Test Drive Car" class="img">
+            </div>
+            <h2 class="title">Test Drive Reservation</h2>
+
+            <form action="../files/סיום.html" method="POST" class="content">
+                <label for="full-name" class="subtitle">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" class="mail" placeholder="Enter your name" required>
+
+                <label for="email" class="subtitle">Email Address:</label>
+                <input type="email" id="email" name="email" class="mail" placeholder="Enter your email" required>
+
+                <label for="phone" class="subtitle">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" class="mail" placeholder="Enter your phone number" required>
+
+                <label for="test-drive-date" class="subtitle">Preferred Date:</label>
+                <input type="date" id="test-drive-date" name="test-drive-date" class="mail" required>
+
+                <label for="test-drive-time" class="subtitle">Preferred Time:</label>
+                <input type="time" id="test-drive-time" name="test-drive-time" class="mail" required>
+
+                <label class="subtitle">
+                    <input type="checkbox" name="terms" required>
+                    I acknowledge and accept the terms and conditions.
+                </label>
+                
+                <div class="buttons">
+                    <input type="reset" value="Reset" class="send">
+                    <button type="submit" class="send">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

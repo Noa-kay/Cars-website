@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../files/css/פתיחה.css">
+    <link rel="icon" type="image/x-icon" href="../images/iconnew.png"/>
+    <title>Opening</title>
+</head>
+<body>
+
+    <div class="video-container">
+        <video id="video" autoplay loop class="background-video" muted>
+            <source src="../images/blabla.mp4" type="video/mp4">
+        </video>
+        
+        <audio id="audio" loop>
+            <source src="../images/new-one.mp4" type="audio/mp3">
+        </audio>
+        
+        <button onclick="toggleAudio()"><img src="../images/sound2.png" alt="img" width="15px" height="15px"></button>
+        
+        <script>
+            function toggleAudio() {
+                var video = document.getElementById('video');
+                var audio = document.getElementById('audio');
+                if (video.muted) {
+                    video.muted = false;
+                    audio.play();
+                } else {
+                    video.muted = true;
+                    audio.pause();
+                }
+            }
+        </script>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to <b>Cars.</b></h1>
+        <p>Your dream car is just a click away!</p>
+
+        <a href="Home.html" class="btn">Let's Go!</a>
+    </div>
+
+</body>
+</html>

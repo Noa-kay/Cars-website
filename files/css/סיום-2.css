@@ -1,0 +1,54 @@
+body {
+  background: #e6e6e6;
+}
+html {
+  cursor: url("../../images/iconnew.png"), auto;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  max-width: 375px;
+  margin: 100px auto;
+  box-shadow: 0px 17px 34px -20px #a5a5a5, 0px 17px 34px -20px #a5a5a5;
+}
+
+.card h3 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #1d2428;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.card p {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #5e7280;
+  margin: 30px auto;
+  max-width: 80%;
+}
+.card button {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 15px 80px;
+  border-radius: 25px;
+  color: white;
+  border: 0;
+  margin: 30px 15px;
+  outline: none;
+  background-color: black;
+  transition: ease all 0.3s;
+  cursor: pointer;
+}
+.card button:hover {
+  box-shadow: 0px 17px 34px -20px #a5a5a5, 0px 17px 34px -20px #a5a5a5;  transform: translateY(-3px);
+  background-color: gray;
+}
+.card button:active {
+  transform: scale(0.9);
+  box-shadow: inset -1px -1px 3px gray(122, 196, 125, 0.3);
+}
