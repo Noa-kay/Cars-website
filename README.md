@@ -1,102 +1,100 @@
-# 🚗 פרויקט חנוכה - אתר מכירת מכוניות
+# 🚗 Hanukkah Project - Car Sales Website
 
-## 📖 תיאור הפרויקט
-אתר מקצועי למכירת מכוניות יוקרה, מהדורות מוגבלות וחזיונות חדשניים. האתר מציג קטלוג של מכוניות שונות עם פרטים מלאים, תמונות באיכות גבוהה ואפשרות לבדיקת נסיעה.
+## 📖 Project Description
+A professional website for selling luxury cars, limited editions, and innovative concept visions. The site features a comprehensive catalog of various vehicles with full specifications, high-quality imagery, and a test drive booking option.
 
-## ✨ תכונות עיקריות
+## ✨ Key Features
 
-### דפים ראשיים
-- **Home.html** - דף הבית עם ניווט ראשי
-- **About_Us.html** - מידע על החברה
-- **פתיחה.html** - דף פתיחה/intro
-- **סיום.html** - דף סיום/קרדיט
-- **Concept.html** - דף הקונספט
+### Main Pages
+- **Home.html** – Homepage with primary navigation.
+- **About_Us.html** – Information about the company.
+- **Opening.html** – Intro / Splash screen.
+- **Ending.html** – Credits / Closing page.
+- **Concept.html** – Concept cars showcase.
 
-### קטגוריות מכוניות
+### Car Categories
 
-#### 🏎️ מכוניות יוקרה
+#### 🏎️ Luxury Cars
 - Audi Q8 e-tron
 - BMW iX
 - Kia EV9
 
-#### ⭐ מהדורות מוגבלות
+#### ⭐ Limited Editions
 - Alfa Romeo Stelvio
 - Bugatti Chiron L'Ébé
 - Toyota Supra GT4
 
-#### 🚀 חזיונות (Concept)
+#### 🚀 Visions (Concept)
 - Hotel on Wheels
 - Multi-terrain SKYE
 - Pininfarina's Ar
 
-### תכונות נוספות
-- **test drive.html** - עמוד הזמנה לבדיקת נסיעה
-- **conecting.html** - דף יצירת קשר
-- **ask-page-html.html** - דף שאלות נפוצות
+### Additional Features
+- **test drive.html** – Test drive reservation page.
+- **connecting.html** – Contact us page.
+- **ask-page-html.html** – Frequently Asked Questions (FAQ).
 
-## 📁 מבנה הפרויקט
+## 📁 Project Structure
 
-```
-פרויקט חנוכה/
-├── HTML Files (דפים ראשיים)
+Hanukkah Project/
+├── HTML Files (Main Pages)
 ├── cars_styles/
-│   ├── all-styles.css (סגנון כללי)
-│   ├── luxury/ (דפי מכוניות יוקרה)
-│   ├── limited_edition/ (דפי מהדורות מוגבלות)
-│   └── consept/ (דפי מכוניות חזיוני)
-├── css/ (קבצי CSS)
+│   ├── all-styles.css (General styling)
+│   ├── luxury/ (Luxury cars pages)
+│   ├── limited_edition/ (Limited edition pages)
+│   └── concept/ (Concept cars pages)
+├── css/ (CSS Files)
 │   ├── Home.css
 │   ├── cars.css
 │   ├── car-styles.css
 │   ├── test drive.css
 │   ├── style.css
-│   ├── פתיחה.css
-│   └── סיום-2.css
-└── images/ (תמונות ארגון לפי קטגוריה)
+│   ├── opening.css
+│   └── ending-2.css
+└── images/ (Organized by category)
     ├── luxury/
     ├── limited_edition/
-    └── consept/
-```
+    └── concept/
 
-## 🎨 טכנולוגיות
+## 🎨 Technologies
 
-- **HTML5** - מבנה עמודים
-- **CSS3** - עיצוב וסגנון (תומך responsive design)
-- **ניווט מבני** - קישורים בין דפים
+- **HTML5** – Page structure.
+- **CSS3** – Design and styling (Responsive Design support).
+- **Structural Navigation** – Seamless internal linking.
 
-## 🚀 כיצד להתחיל
+## 🚀 Getting Started
 
-1. פתח את הקובץ `Home.html` בדפדפן שלך
-2. או הפעל את הפרויקט בשרת מקומי (VS Code Live Server וכו')
-3. נווט בעזרת התפריט הראשי בין הדפים השונים
+1. Open the `Home.html` file in your web browser.
+2. Or, run the project on a local server (VS Code Live Server, etc.).
+3. Use the main menu to navigate between the different pages.
 
-## 📝 דפים זמינים
+## 📝 Available Pages
 
-| דף | תיאור |
-|-----|-------|
-| `Home.html` | דף הבית |
-| `About_Us.html` | מידע על החברה |
-| `luxury cars.html` | מכוניות יוקרה |
-| `limited editions.html` | מהדורות מוגבלות |
-| `Concept.html` | מכוניות חזיוני |
-| `test drive.html` | הזמנת בדיקת נסיעה |
-| `conecting.html` | יצירת קשר |
+| Page | Description |
+|:-----|:------------|
+| `Home.html` | Homepage |
+| `About_Us.html` | About the Company |
+| `luxury cars.html` | Luxury Vehicles |
+| `limited editions.html` | Limited Editions |
+| `Concept.html` | Concept Vehicles |
+| `test drive.html` | Book a Test Drive |
+| `connecting.html` | Contact Us |
 
-## 🎯 מטרות הפרויקט
+## 🎯 Project Goals
 
-- הצגה מקצועית של קטלוג מכוניות
-- ממשק משתמש אינטואיטיבי וידידותי
-- עיצוב מודרני ומושך
-- שיווק דיגיטלי של מוצרים יוקרה
+- Professional presentation of a car catalog.
+- Intuitive and user-friendly UI.
+- Modern and attractive design.
+- Digital marketing showcase for luxury products.
 
-## 📞 יצירת קשר
+## 📞 Contact
 
-לשאלות או הנחיות נוספות, אתה יכול:
-- להשתמש בדף "conecting.html"
-- להשתמש בדף "ask-page-html.html" לשאלות נפוצות
+For questions or further instructions, you can:
+- Use the **connecting.html** page.
+- Visit the **ask-page-html.html** for FAQs.
 
 ---
 
-**פותח**: פרויקט סטודנטי  
-**תאריך**: 2025  
-**סטטוס**: בפיתוח ✅
+**Developed by**: Student Project  
+**Date**: 2025  
+**Status**: In Development ✅
