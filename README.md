@@ -1,9 +1,9 @@
-# 🚗 Hanukkah Project - Car Sales Website
+#  Hanukkah Project - Car Sales Website
 
-## 📖 Project Description
+##  Project Description
 A professional website for selling luxury cars, limited editions, and innovative concept visions. The site features a comprehensive catalog of various vehicles with full specifications, high-quality imagery, and a test drive booking option.
 
-## ✨ Key Features
+##  Key Features
 
 ### Main Pages
 - **Home.html** – Homepage with primary navigation.
@@ -14,17 +14,17 @@ A professional website for selling luxury cars, limited editions, and innovative
 
 ### Car Categories
 
-#### 🏎️ Luxury Cars
+####  Luxury Cars
 - Audi Q8 e-tron
 - BMW iX
 - Kia EV9
 
-#### ⭐ Limited Editions
+####  Limited Editions
 - Alfa Romeo Stelvio
 - Bugatti Chiron L'Ébé
 - Toyota Supra GT4
 
-#### 🚀 Visions (Concept)
+####  Visions (Concept)
 - Hotel on Wheels
 - Multi-terrain SKYE
 - Pininfarina's Ar
@@ -34,7 +34,7 @@ A professional website for selling luxury cars, limited editions, and innovative
 - **connecting.html** – Contact us page.
 - **ask-page-html.html** – Frequently Asked Questions (FAQ).
 
-## 📁 Project Structure
+##  Project Structure
 
 Hanukkah Project/
 ├── HTML Files (Main Pages)
@@ -56,19 +56,19 @@ Hanukkah Project/
     ├── limited_edition/
     └── concept/
 
-## 🎨 Technologies
+##  Technologies
 
 - **HTML5** – Page structure.
 - **CSS3** – Design and styling (Responsive Design support).
 - **Structural Navigation** – Seamless internal linking.
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Open the `Home.html` file in your web browser.
 2. Or, run the project on a local server (VS Code Live Server, etc.).
 3. Use the main menu to navigate between the different pages.
 
-## 📝 Available Pages
+##  Available Pages
 
 | Page | Description |
 |:-----|:------------|
@@ -80,14 +80,14 @@ Hanukkah Project/
 | `test drive.html` | Book a Test Drive |
 | `connecting.html` | Contact Us |
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Professional presentation of a car catalog.
 - Intuitive and user-friendly UI.
 - Modern and attractive design.
 - Digital marketing showcase for luxury products.
 
-## 📞 Contact
+##  Contact
 
 For questions or further instructions, you can:
 - Use the **connecting.html** page.
